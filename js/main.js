@@ -226,7 +226,7 @@ function opcionesInvierno(){
 }
 //Verano
 function opcionesVerano(){
-    let selectVerano=prompt("\n1. Remera-$2.000 \n2. Short-$2.990 \n3. Gorra-$1.090 \n4. Havaianas-$3.90 \n5. Bermuda-$1.290 \n6. Volver a Ropa \n7. Volver al menu principal")
+    let selectVerano=prompt("\n1. Remera-$2.000 \n2. Short-$2.990 \n3. Gorra-$1.090 \n4. Havaianas-$390 \n5. Bermuda-$1.290 \n6. Volver a Ropa \n7. Volver al menu principal")
         switch(selectVerano){
             case"1":
                 procesarCompra(2000);
