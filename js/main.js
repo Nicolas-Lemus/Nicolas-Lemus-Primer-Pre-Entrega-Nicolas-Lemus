@@ -90,7 +90,7 @@ function opcionesDeportivo() {
         switch (selectDeportivo) {
             case "1":
                 if(saldo < 4000){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 4000;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -98,7 +98,7 @@ function opcionesDeportivo() {
             break;
             case "2":
                 if(saldo < 3900){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 3900;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -106,7 +106,7 @@ function opcionesDeportivo() {
             break;
             case "3":
                 if(saldo < 5000){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 5000;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -114,17 +114,17 @@ function opcionesDeportivo() {
             break;
             case"4":
                 if(saldo < 4900){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
-                    saldo-= 4900;
+                    saldo -= 4900;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
                 }
             break;
             case"5":
                 if(saldo < 5200){
-                    alert("Saldo no disponible.Saldo actual : $" + saldo);
+                    alert("Saldo no disponible. " + "Saldo actual : $" + saldo);
                 }else{
-                    saldo-=5200;
+                    saldo -= 5200;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
                 }
             break;
@@ -145,7 +145,7 @@ function opcionesCasual() {
         switch(selectCasual){
             case"1":
             if(saldo < 5000){
-                alert("Saldo no disponible. Saldo actual: $" + saldo);
+                alert("Saldo no disponible." + " Saldo actual: $" + saldo);
             }else{
                 saldo -= 5000;
                 alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -153,7 +153,7 @@ function opcionesCasual() {
             break;
             case"2":
                 if(saldo < 4900){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 4900;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -161,7 +161,7 @@ function opcionesCasual() {
             break;
             case"3":
                 if(saldo < 6000){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{  
                     saldo -= 6000;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -169,7 +169,7 @@ function opcionesCasual() {
             break;
             case"4":    
                 if(saldo < 5390){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 5000;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -177,9 +177,9 @@ function opcionesCasual() {
             break;
             case"5":
                 if(saldo < 5999){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
-                    saldo -=5999;
+                    saldo -= 5999;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
                 }
             break;
@@ -200,7 +200,7 @@ function opcionesFormal(){
         switch(selectFormal){
             case"1":
                 if(saldo < 7000){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 7000;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -208,7 +208,7 @@ function opcionesFormal(){
             break;
             case"2":
                 if(saldo < 5900){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 5900;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -216,7 +216,7 @@ function opcionesFormal(){
                 break;
             case"3":
                 if(saldo < 6900){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 6900;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -224,7 +224,7 @@ function opcionesFormal(){
             break;
             case"4":
                 if(saldo < 6199){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 6199;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -232,7 +232,7 @@ function opcionesFormal(){
             break;
             case"5":
                 if(saldo < 10000){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + "  Saldo actual: $" + saldo);
                 }else{
                     saldo -= 10000;
                 alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -276,7 +276,7 @@ function opcionesInvierno(){
         switch(selectInvierno){ 
             case"1":
                 if(saldo < 1000){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 1000;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -284,7 +284,7 @@ function opcionesInvierno(){
             break;
             case"2":
                 if(saldo < 900){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 900;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -292,7 +292,7 @@ function opcionesInvierno(){
             break;
             case"3":
                 if(saldo < 5000){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 5000;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -300,7 +300,7 @@ function opcionesInvierno(){
             break;
             case"4":
                 if(saldo < 590){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 590;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -308,7 +308,7 @@ function opcionesInvierno(){
             break;
             case"5":
                 if(saldo < 890){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 890;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -331,7 +331,7 @@ function opcionesVerano(){
         switch(selectVerano){
             case"1":
                 if(saldo < 2000){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 2000;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -339,7 +339,7 @@ function opcionesVerano(){
             break;
             case"2":
                 if(saldo < 2990){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 2990;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -347,7 +347,7 @@ function opcionesVerano(){
             break;
             case"3":
                 if(saldo < 1090){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 1090;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -355,7 +355,7 @@ function opcionesVerano(){
             break;
             case"4":
                 if(saldo < 390){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 390;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -363,7 +363,7 @@ function opcionesVerano(){
             break;
             case"5":
                 if(saldo < 1290){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 1290;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -386,7 +386,7 @@ function opcionesPrimavera(){
         switch(selectPrimavera){
             case"1":
                 if(saldo < 2390){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 2390;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -394,7 +394,7 @@ function opcionesPrimavera(){
             break;
             case"2":
                 if(saldo < 3999){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 3990;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -402,7 +402,7 @@ function opcionesPrimavera(){
             break;
             case"3":
                 if(saldo < 4900){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 4900;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -410,7 +410,7 @@ function opcionesPrimavera(){
             break;
             case"4":
                 if(saldo < 2190){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 2190;
                 alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -418,7 +418,7 @@ function opcionesPrimavera(){
             break;
             case"5":
                 if(saldo < 1099){
-                    alert("Saldo no disponible. Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 1099;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -462,7 +462,7 @@ function opcionesReloj(){
     switch(selectReloj){ 
         case"1":
             if(saldo < 7000){
-                alert("Saldo no disponible. Saldo actual: $" + saldo);
+                alert("Saldo no disponible." + " Saldo actual: $" + saldo);
             }else{
                 saldo -= 7000;
                 alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -470,7 +470,7 @@ function opcionesReloj(){
         break;
         case"2":
             if(saldo < 5900){
-                alert("Saldo no disponible. Saldo actual: $" + saldo);
+                alert("Saldo no disponible." + " Saldo actual: $" + saldo);
             }else{
                 saldo -= 5900;
                 alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -478,25 +478,25 @@ function opcionesReloj(){
         break;
         case"3":
             if(saldo < 5000){
-                alert("Saldo no disponible. Saldo actual: $" + saldo);
+                alert("Saldo no disponible." + " Saldo actual: $" + saldo);
             }else{
-                saldo-= 5000;
+                saldo -= 5000;
                 alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
             }
         break;
         case"4":
             if(saldo < 9000){
-                alert("Saldo no disponible. Saldo actual: $" + saldo);
+                alert("Saldo no disponible." + " Saldo actual: $" + saldo);
             }else{
-                saldo-= 9000;
+                saldo -= 9000;
                 alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
             }
         break;
         case"5":
             if(saldo < 12000){
-                alert("Saldo no disponible. Saldo actual: $" + saldo );
+                alert("Saldo no disponible." + " Saldo actual: $" + saldo );
             }else{
-                saldo-= 12000;
+                saldo -= 12000;
                 alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
             }
         break;
@@ -517,7 +517,7 @@ function opcionesAnillo(){
     switch(selectAnillo){
         case"1":
             if(saldo < 12000){
-                alert("Saldo no disponible. Saldo actual: $" + saldo );
+                alert("Saldo no disponible." + " Saldo actual: $" + saldo );
             }else{
                 saldo -= 12000;
                 alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -525,7 +525,7 @@ function opcionesAnillo(){
         break;
         case"2":
             if(saldo < 7490){
-                alert("Saldo no disponible. Saldo actual: $" + saldo  );
+                alert("Saldo no disponible." + " Saldo actual: $" + saldo  );
             }else{
                 saldo -= 7490;
                 alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -533,25 +533,25 @@ function opcionesAnillo(){
         break;
         case"3":
             if(saldo < 5190){
-                alert("Saldo no disponible. Saldo actual: $" + saldo  );
+                alert("Saldo no disponible." + " Saldo actual: $" + saldo  );
             }else{
-                saldo-= 5190;
+                saldo -= 5190;
                 alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
             }
         break;
         case"4":
             if(saldo < 12099){
-                alert("Saldo no disponible. Saldo actual: $" + saldo  );
+                alert("Saldo no disponible." + " Saldo actual: $" + saldo  );
             }else{
-                saldo-= 12099;
+                saldo -= 12099;
                 alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
             }
         break;
         case"5":
             if(saldo < 10199){
-                alert("Saldo no disponible. Saldo actual: $" + saldo );
+                alert("Saldo no disponible." + " Saldo actual: $" + saldo );
             }else{
-                saldo-= 10199;
+                saldo -= 10199;
                 alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
             }
         break;
@@ -572,7 +572,7 @@ function opcionesCadenita(){
         switch(selectCadenita){
             case"1":
                 if(saldo < 13390){
-                    alert("Saldo no disponible.Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
                     saldo -= 13390;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -580,7 +580,7 @@ function opcionesCadenita(){
             break;
             case"2":
                 if(saldo < 9999){
-                    alert("Saldo no disponible.Saldo actual: $" + saldo );
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo );
                 }else{
                     saldo -= 9999;
                     alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
@@ -588,25 +588,25 @@ function opcionesCadenita(){
             break;
             case"3":
                 if(saldo < 8250){
-                    alert("Saldo no disponible.Saldo actual: $" + saldo );
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo );
                 }else{
-                    saldo-= 8250;
+                    saldo -= 8250;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
                 }
             break;
             case"4":
                 if(saldo < 3219){
-                    alert("Saldo no disponible.Saldo actual: $" + saldo );
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo );
                 }else{
-                    saldo-= 3219;
+                    saldo -= 3219;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
                 }
             break;
             case"5":
                 if(saldo < 3999){
-                    alert("Saldo no disponible.Saldo actual: $" + saldo);
+                    alert("Saldo no disponible." + " Saldo actual: $" + saldo);
                 }else{
-                    saldo-= 3999;
+                    saldo -= 3999;
                     alert("Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
                 }
             break;
