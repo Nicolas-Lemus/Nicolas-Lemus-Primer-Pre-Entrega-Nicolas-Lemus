@@ -59,12 +59,13 @@ function ingresoExitoso() {
         break;
         //Opcion de salida
         case "5":
+            alert("Gracias!. Vuelva pronto!")
         break;
         default:
             alert("Opcion invalida. Elija nuevamente.");
         break;
         }
-    } while (opciones !== "4");
+    } while (opciones !== "5");
 }
 //Funciones de Calzado
 function opcionesCalzado() {
