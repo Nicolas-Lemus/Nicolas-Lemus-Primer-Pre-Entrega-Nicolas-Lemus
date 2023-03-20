@@ -39,7 +39,7 @@ function ingresoExitoso() {
     saldo = 40000;
     //Opciones al ingresar al menu principal
     do {
-        opciones = prompt("Elija su opcion:\n1. Calzado\n2. Ropa\n3. Accesorios\n4. Salir");
+        opciones = prompt("Elija su opcion:\n1. Calzado\n2. Ropa\n3. Accesorios\n4. Cancelar compras\n5. Salir ");
         switch (opciones) {
         //Opciones de Calzado
         case "1":
@@ -53,8 +53,12 @@ function ingresoExitoso() {
         case "3":
             opcionesAccesorios();
         break;
-        //Opcion de salida
         case "4":
+            cancelarCompra();
+            ingresoExitoso();
+        break;
+        //Opcion de salida
+        case "5":
         break;
         default:
             alert("Opcion invalida. Elija nuevamente.");
@@ -402,5 +406,15 @@ function procesarCompra(precio){
     }else{
         saldo -= precio;
         alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
+    }
+}
+//Funcion cancelar compras.Reescribe valor inicial de "saldo"
+function cancelarCompra(){
+    if(saldo != 40000){
+        alert("Se han cancelado todas sus compras.");
+        saldo = 40000;
+        alert("Saldo actual $ " + saldo);
+    }else{
+        alert("Usted aun no tiene compras realizadas");
     }
 }
