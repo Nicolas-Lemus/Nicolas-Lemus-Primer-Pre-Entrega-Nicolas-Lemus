@@ -44,26 +44,25 @@ function ingresoExitoso() {
         //Opciones de Calzado
         case "1":
             opcionesCalzado();
-        break;
+            break;
         //Opciones de Ropa
         case "2":
             opcionesRopa();
-        break;
+            break;
         //Opciones de Accesorios
         case "3":
             opcionesAccesorios();
-        break;
+            break;
         case "4":
             cancelarCompra();
-            ingresoExitoso();
-        break;
+            break;
         //Opcion de salida
         case "5":
-            alert("Gracias!. Vuelva pronto!")
-        break;
+            salida();
+            break;
         default:
             alert("Opcion invalida. Elija nuevamente.");
-        break;
+            break;
         }
     } while (opciones !== "5");
 }
@@ -73,19 +72,19 @@ function opcionesCalzado() {
         switch (selectCalzado) {
             case "1":
                 opcionesDeportivo();
-            break;
+                break;
             case "2":
                 opcionesCasual();
-            break;
+                break;
             case "3":
                 opcionesFormal();
-            break;
+                break;
             case "4":
-            break;
+                break;
             default:
                 alert("Opcion invalida. Elija nuevamente.");
                 opcionesCalzado();
-            break;
+                break;
         }
 }
 //Deportivos
@@ -97,25 +96,25 @@ function opcionesDeportivo() {
             break;
             case "2":
                 procesarCompra(3900);
-            break;
+                break;
             case "3":
                 procesarCompra(5000);
-            break;
+                break;
             case"4":
                 procesarCompra(4900);
-            break;
+                break;
             case"5":
                 procesarCompra(5200);
-            break;
+                break;
             case "6":
                 opcionesCalzado();
-            break;
+                break;
             case"7":
-            break;
+                break;
             default:
                 alert("Opcion invalida. Elija nuevamente.");
                 opcionesDeportivo();
-            break;
+                break;
         }
 }
 //Casual
@@ -124,28 +123,28 @@ function opcionesCasual() {
         switch(selectCasual){
             case"1":
                 procesarCompra(5000)
-            break;
+                break;
             case"2":
                 procesarCompra(4900);
-            break;
+                break;
             case"3":
                 procesarCompra(6000);
-            break;
+                break;
             case"4": 
                 procesarCompra(5390);
-            break;
+                break;
             case"5":
                 procesarCompra(5999);
-            break;
+                break;
             case "6":
                 opcionesCalzado();
-            break;
+                break;
             case"7":
-            break;
+                break;
             default:
                 alert("Opcion invalida. Elija nuevamente.");
                 opcionesCasual();
-            break;
+                break;
         }
 }
 //Formal
@@ -154,28 +153,28 @@ function opcionesFormal(){
         switch(selectFormal){
             case"1":
                 procesarCompra(7000);
-            break;
+                break;
             case"2":
                 procesarCompra(5900);
                 break;
             case"3":
                 procesarCompra(6900);
-            break;
+                break;
             case"4":
                 procesarCompra(6199);
-            break;
+                break;
             case"5":
                 procesarCompra(10000);
-            break;
+                break;
             case "6":
                 opcionesCalzado();
-            break;
+                break;
             case"7":
-            break;
+                break;
             default:
                 alert("Opcion invalida. Elija nuevamente.");
                 opcionesFormal();
-            break;
+                break;
         }
 }
 //PRENDAS
@@ -184,19 +183,19 @@ function opcionesRopa() {
         switch (selectRopa) {
             case "1":
                 opcionesInvierno();
-            break;
+                break;
             case "2":
                 opcionesVerano();
-            break;
+                break;
             case "3":
                 opcionesPrimavera();
-            break;
+                break;
             case "4":
-            break;
+                break;
             default:
                 alert("Opcion invalida. Elija nuevamente.");
                 opcionesRopa();
-            break;
+                break;
         }
 }
 //Invierno
@@ -205,28 +204,28 @@ function opcionesInvierno(){
         switch(selectInvierno){ 
             case"1":
                 procesarCompra(1000);
-            break;
+                break;
             case"2":
                 procesarCompra(900);
-            break;
+                break;
             case"3":
                 procesarCompra(5000);
-            break;
+                break;
             case"4":
                 procesarCompra(590);
-            break;
+                break;
             case"5":
                 procesarCompra(890);
-            break;
+                break;
             case "6":
                 opcionesRopa();
-            break;
+                break;
             case"7":
-            break;
+                break;
             default:
                 alert("Opcion invalida. Elija nuevamente.");
                 opcionesInvierno();
-            break;
+                break;
         }
 }
 //Verano
@@ -235,28 +234,28 @@ function opcionesVerano(){
         switch(selectVerano){
             case"1":
                 procesarCompra(2000);
-            break;
+                break;
             case"2":
                 procesarCompra(2990);
-            break;
+                break;
             case"3":
                 procesarCompra(1090);
-            break;
+                break;
             case"4":
                 procesarCompra(390);
-            break;
+                break;
             case"5":
                 procesarCompra(1290);
-            break;
+                break;
             case "6":
                 opcionesRopa();
-            break;   
+                break;   
             case"7":
-            break;
+                break;
             default:
                 alert("Opcion invalida. Elija nuevamente.");
                 opcionesVerano();
-            break;
+                break;
         }
 }
 //Primavera
@@ -265,28 +264,28 @@ function opcionesPrimavera(){
         switch(selectPrimavera){
             case"1":
                 procesarCompra(2390);
-            break;
+                break;
             case"2":
                 procesarCompra(3999)
-            break;
+                break;
             case"3":
                 procesarCompra(4900);
-            break;
+                break;
             case"4":
                 procesarCompra(2190);
-            break;
+                break;
             case"5":
                 procesarCompra(1099);
-            break;
+                break;
             case "6":
                 opcionesRopa();
-            break;
+                break;
             case"7":
-            break;
+                break;
             default:
                 alert("Opcion invalida. Elija nuevamente.");
                 opcionesPrimavera();
-            break;
+                break;
         }
 }
 //ACCESORIOS
@@ -295,19 +294,19 @@ function opcionesAccesorios(){
         switch (selectAccesorios) {
             case "1":
                 opcionesReloj();
-            break;
+                break;
             case "2":
                 opcionesAnillo();
-            break;
+                break;
             case "3":  
                 opcionesCadenita();
-            break;                    
+                break;                    
             case "4":
-            break;
+                break;
             default:
                 alert("Opcion invalida. Elija nuevamente.");
                 opcionesAccesorios();
-            break;   
+                break;   
         }
 }
 //Reloj
@@ -316,28 +315,28 @@ function opcionesReloj(){
     switch(selectReloj){ 
         case"1":
             procesarCompra(7000);
-        break;
+            break;
         case"2":
             procesarCompra(5900);
-        break;
+            break;
         case"3":
             procesarCompra(5000);
-        break;
+            break;
         case"4":
             procesarCompra(9000);
-        break;
+            break;
         case"5":
             procesarCompra(12000);
-        break;
+            break;
         case"6":
             opcionesAccesorios();
-        break;
+            break;
         case"7":
-        break;
+            break;
         default:
             alert("Opcion invalida. Elija nuevamente.");
             opcionesReloj();
-        break;
+            break;
     }
 }
 //Anillo
@@ -346,28 +345,28 @@ function opcionesAnillo(){
     switch(selectAnillo){
         case"1":
             procesarCompra(12000);
-        break;
+            break;
         case"2":
             procesarCompra(7490);
-        break;
+            break;
         case"3":
             procesarCompra(5190);
-        break;
+            break;
         case"4":
             procesarCompra(12099);
-        break;
+            break;
         case"5":
             procesarCompra(10199);
-        break;
+            break;
         case"6":
             opcionesAccesorios();
-        break;
+            break;
         case"7":
-        break;
+            break;
         default:
             alert("Opcion invalida. Elija nuevamente.");
             opcionesAnillo();
-        break;
+            break;
     }
 }
 //Cadenitas
@@ -376,28 +375,28 @@ function opcionesCadenita(){
         switch(selectCadenita){
             case"1":
                 procesarCompra(13390);
-            break;
+                break;
             case"2":
                 procesarCompra(9999);
-            break;
+                break;
             case"3":
                 procesarCompra(8250);
-            break;
+                break;
             case"4":
                 procesarCompra(3219);
-            break;
+                break;
             case"5":
                 procesarCompra(3999);
-            break;
+                break;
             case"6":
                 opcionesAccesorios();
-            break;
+                break;
             case"7":
-            break; 
+                break; 
             default:
                 alert("Opcion invalida. Elija nuevamente.");
                 opcionesCadenita();
-            break;
+                break;
         }
 }
 //FUNCION DE COMPRA
@@ -409,7 +408,7 @@ function procesarCompra(precio){
         alert(" Gracias por su compra!. " + "Su saldo es de " + "$" + saldo);
     }
 }
-//Funcion cancelar compras.Reescribe valor inicial de "saldo"
+//Funcion cancelar compras.Reescribe valor inicial de "saldo".
 function cancelarCompra(){
     if(saldo != 40000){
         alert("Se han cancelado todas sus compras.");
@@ -418,4 +417,24 @@ function cancelarCompra(){
     }else{
         alert("Usted aun no tiene compras realizadas");
     }
+}
+//funcion salida
+function salida(){
+    let ingreso = true;
+    while (ingreso) {
+        let opcion = prompt("¿Desea salir de la tienda?\n1. Si\n2. No");
+        switch(opcion){
+            case "1":
+                ingreso = false;
+                alert("¡Gracias! ¡Vuelva pronto!");
+                break;
+            case "2":
+                ingresoExitoso();
+                break;
+            default:
+                alert("Opción invalida. Por favor, elija nuevamente.");
+                break;
+        }
+    }
+    return ingreso;
 }
